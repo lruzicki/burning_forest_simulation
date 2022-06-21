@@ -6,6 +6,7 @@ but with the greatest possible land use. It is clear that with a forest density 
 there will be the least chance of burning a large number of trees.
 
 Output for 100 samples with 2500 reapeats for each:
+
 ![image](https://user-images.githubusercontent.com/56487722/174787272-66ad732e-c87c-4a70-80fa-9f79fa2edba0.png)
 
 Examples vizualization of generated forest:
@@ -15,19 +16,12 @@ Examples vizualization of generated forest:
 
 ![image](https://user-images.githubusercontent.com/56487722/174787471-f0ece11d-a8c8-49ae-8cb6-dd3373004519.png)
 
-Legend:
-case forest[y][x]
-            when 0
-                display_bollean and print "🟫" 
-            when 1
-                display_bollean and print "🌳"
-            when 2
-                display_bollean and print "🔥"
-                burnt_trees_counter += 1
-            when 3
-                display_bollean and print "⚡"
-            when 4
-                display_bollean and print "🐼"
-            when 5
-                display_bollean and print "🍖"
-            end
+Legend:<br />
+case forest[y][x]<br />
+            when 0 print "🟫", empty place<br />
+            when 1 print "🌳", tree<br />
+            when 2 print "🔥", burnt tree<br />
+            when 3 print "⚡", thunder hit<br />
+            when 4 print "🐼", panda<br />
+            when 5 print "🍖", burnt panda<br />
+            end<br />
