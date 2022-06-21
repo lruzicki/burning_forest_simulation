@@ -9,7 +9,25 @@ Output for 100 samples with 2500 reapeats for each:
 ![image](https://user-images.githubusercontent.com/56487722/174787272-66ad732e-c87c-4a70-80fa-9f79fa2edba0.png)
 
 Examples vizualization of generated forest:
+![image](https://user-images.githubusercontent.com/56487722/174788374-e2898521-6034-462e-be16-03a84b49883b.png)
+
 ![image](https://user-images.githubusercontent.com/56487722/174787450-194077f7-6b2b-4560-ace7-20b7063517ed.png)
 
 ![image](https://user-images.githubusercontent.com/56487722/174787471-f0ece11d-a8c8-49ae-8cb6-dd3373004519.png)
 
+Legend:
+case forest[y][x]
+            when 0
+                display_bollean and print "🟫" 
+            when 1
+                display_bollean and print "🌳"
+            when 2
+                display_bollean and print "🔥"
+                burnt_trees_counter += 1
+            when 3
+                display_bollean and print "⚡"
+            when 4
+                display_bollean and print "🐼"
+            when 5
+                display_bollean and print "🍖"
+            end
